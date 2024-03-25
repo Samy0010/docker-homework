@@ -7,3 +7,4 @@
 - Make server3 that is a web server and exposes a simplle HTML application that has a form where you can type an word and submit the form and the app sends that word to server1 to be added in the list
 - Reaserch nginx container to make server3 with https conection in docker. (add ngnix contaner that acts as a reverse proxy ffor the webapp running on server3)
 - Deploy ngix to add https connection to the webapp on server3 with self siigned certificate.
+- Commit the changes to giithub
