@@ -9,6 +9,7 @@ services:
     command: ./scripts/script.py 
     volumes:
       - "./app/scripts:/app/scripts"
+      - ./app/data.txt:/app/data.txt
     # ports:
     #   - "80:5000"
 
