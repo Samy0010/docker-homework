@@ -19,4 +19,13 @@ services:
     # command: ./scripts/script.py
     volumes:
       - "./app2/scripts:/app/scripts"
-        
+
+  web:
+    build: ./app3
+    container_name: web
+    command: ./scripts/script.py && ./html/index.html
+    volumes:
+      - "./app3/scripts:/app/scripts"
+      - "./app3/html:/app/html"
+    ports:
+        - "80:80"

@@ -1,1 +1,5 @@
 {"name": "Samy", "age": 24}
+{"name": "Stef", "age": 24}
+{"name": "Monica", "age": 46}
+{"name": "Vladut", "age": 24}
+{"name": "Adi", "age": 24}
